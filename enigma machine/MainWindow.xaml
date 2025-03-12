@@ -1,0 +1,33 @@
+﻿<Window x:Class="enigma_machine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:enigma_machine"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="rotorbutton" Content="Rotor On" HorizontalAlignment="Left" Margin="15,25,0,0" VerticalAlignment="Top" Height="37" Width="77"/>
+        <Label x:Name="h_label" Content="H" HorizontalAlignment="Left" Margin="137,31,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="h_textbox" HorizontalAlignment="Left" Margin="161,35,0,0" TextWrapping="Wrap" Text="0-25" VerticalAlignment="Top" Width="41"/>
+        <Label x:Name="m_label" Content="M" HorizontalAlignment="Left" Margin="207,31,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="m_textbox" HorizontalAlignment="Left" Margin="233,35,0,0" TextWrapping="Wrap" Text="0-25" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="s_label" Content="S" HorizontalAlignment="Left" Margin="283,31,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="s_textbox" HorizontalAlignment="Left" Margin="304,35,0,0" TextWrapping="Wrap" Text="0-25" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="control_label" Content="Control" HorizontalAlignment="Left" Margin="13,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ring1_label" Content="Ring 1 (S)" HorizontalAlignment="Left" Margin="13,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ring2_label" Content="Ring 2 (M)" HorizontalAlignment="Left" Margin="13,144,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ring3_label" Content="Ring 3 (H)" HorizontalAlignment="Left" Margin="14,175,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="100,82,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="100,113,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="100,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="100,175,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="inputmessage_label" Content="Input Message:" HorizontalAlignment="Left" Margin="15,217,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="input_label" Content="Input" HorizontalAlignment="Left" Margin="15,248,0,0" VerticalAlignment="Top" FontFamily="Cascadia Code"/>
+        <Label x:Name="encryptedmessage_label" Content="Encrypted Message:" HorizontalAlignment="Left" Margin="15,279,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="encrypted_label" Content="Encrypted" HorizontalAlignment="Left" Margin="15,310,0,0" VerticalAlignment="Top" FontFamily="Cascadia Code"/>
+        <Label x:Name="mirrorencryptedmessage_label" Content="Encrypted Message with Mirroring:" HorizontalAlignment="Left" Margin="15,341,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="mirror_label" Content="Mirror" HorizontalAlignment="Left" Margin="15,372,0,0" VerticalAlignment="Top" FontFamily="Cascadia Code"/>
+
+    </Grid>
+</Window>
